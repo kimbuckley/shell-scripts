@@ -1,29 +1,29 @@
 # shell-scripts
-<strong>Shell Scripts to Extract XML Data</strong>
+<h3>Shell Scripts to Extract XML Data</h3>
 <p>Written to extract data from XML files containing driver insurance information. Run in terminal on Mac using grep to output matching filenames to a text file. 'brew install coreutils' was used in some scripts where calculating the difference between two dates was necessary.</p>
 
-<p>Scripts include:</p>
-<strong>Drivers under 25</strong><br />
+<h3>Scripts include:</h3>
+<strong>Drivers under 25</strong>
 <p>Returns any files containing a driver under 25 years of age.</p>
-Drivers with any claims <br />
+<strong>Drivers with any claims</strong>
 <p>Returns any files containing a driver with a claim.</p>
-Drivers with any convictions/tickets <br />
+<strong>Drivers with any convictions/tickets </strong>
 <p>Returns any files containing a driver with a conviction.</p>
-Drivers with any insurance cancellations <br />
+<strong>Drivers with any insurance cancellations</strong>
 <p>Returns any files containing a driver with a cancellation.</p>
-Drivers with any lapses <br />
+<strong>Drivers with any lapses</strong>
 <p>Returns any files containing a driver with a lapse in their insurance.</p>
-Drivers with no insurance experience<br />
+<strong>Drivers with no insurance experience</strong>
 <p>Returns any files containing a new driver without insurance experience.</p>
-Drivers with more than 10 yr of experience <br />
+<strong>Drivers with more than 10 yr of experience</strong>
 <p>Returns any files containing a driver with more than 10 years experience.</p>
-Vehicles rated for pleasure/commuting <br />
+<strong>Vehicles rated for pleasure/commuting</strong>
 <p>Returns any files containing a driver with a vehicle rated for pleasure.</p>
-Vehicles rates for business <br />
+<strong>Vehicles rates for business</strong>
 <p>Returns any files containing a driver with a vehicle rated for business.</p>
-Drivers with their G license <br />
+<strong>Drivers with their G license</strong>
 <p>Returns any files containing a driver with a G license.</p>
-Drivers with just a G2 license <br />
+<strong>Drivers with just a G2 license</strong>
 <p>Returns any files containing a driver with a G license.</p>
-"Clean drivers" (drivers with no claims, convictions/tickets, cancellations, or lapses) <br />
+<strong>"Clean drivers" (drivers with no claims, convictions/tickets, cancellations, or lapses)</strong>
 <p>Returns any files containing a "clean driver" - a driver with no claims, convictions/tickets, cancellations, or lapses in their insurance.</p>
